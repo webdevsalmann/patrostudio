@@ -6,7 +6,8 @@ import './globals.css'
 import './helper.css'
 import { siteMd } from '@/lib/datas/metaDatas';
 
-const rubik = Blinker({ subsets: ['latin'], weight:["100", "200", "300", "400", "600", "700", "800", "900"] });
+// const rubik = Blinker({ subsets: ['latin'], weight:["100", "200", "300", "400", "600", "700", "800", "900"] });
+const rubik = Archivo({ subsets: ['latin'], });
 
 export const metadata = siteMd;
 

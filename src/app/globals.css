@@ -64,11 +64,11 @@
 
 @layer components {
   h1 {
-    @apply scroll-m-20 text-[2.5rem] md:text-5xl font-extrabold;
+    @apply scroll-m-20 text-[2.5rem] md:text-5xl font-black;
   }
 
   h2 {
-    @apply scroll-m-20 mt-16 mb-6 text-4xl font-semibold tracking-tight first:mt-0 md:text-center;
+    @apply scroll-m-20 mt-16 mb-6 text-4xl font-extrabold tracking-tight first:mt-0 md:text-center;
   }
 
   h3 {

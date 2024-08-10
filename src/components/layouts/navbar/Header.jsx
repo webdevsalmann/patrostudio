@@ -14,8 +14,8 @@ export default function Header() {
       <nav className="px-[5%] py-2 w-full h-full grid grid-cols-2 md:grid-cols-7 gap-base justify-center items-center">
 
         <Link className="w-fit flex-center" href="/">
-          <Ilogo className="size-16" />
-          <span className='sr-only'>webdevsalmann</span>
+          <Ilogo className="h-16 w-fit text-primary" />
+          <span className='sr-only'>Artistice-Studio</span>
         </Link>
 
 
