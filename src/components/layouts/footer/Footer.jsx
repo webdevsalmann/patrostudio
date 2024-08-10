@@ -46,7 +46,7 @@ export default function Footer() {
 
         <div className="pt-base">
           <p className="text-muted-foreground text-sm text-center">
-            &copy;{currentYear}webdevsalmann / <Link className="hover:underline" href="/privacy-policy"> privacy-policy</Link> / <Link className="hover:underline" href="/credits"> Credits</Link> / Developed by <Link className="hover:underline" href="https://webdevsalmann.vercel.app/"> webdevsalmann</Link> 💖
+            Copyright &copy; {currentYear} Artistice-Studio / <Link className="hover:underline" href="/privacy-policy"> privacy-policy</Link> / <Link className="hover:underline" href="/credits"> Credits</Link> / Developed by <Link className="hover:underline" href="https://webdevsalmann.vercel.app/"> webdevsalmann</Link> 💖
           </p>
         </div>
       </div>

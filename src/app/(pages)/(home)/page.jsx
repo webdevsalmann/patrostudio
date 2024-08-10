@@ -5,6 +5,7 @@ import Purpose from "./Purpose";
 import Service from "./Service";
 import FAQ from "./FAQs";
 import Pricing from "./Pricing";
+import WorkingProcess from "./working-process";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Purpose />
       <Service />
       <Pricing />
+      <WorkingProcess />
       <FAQ />
       {/* <Projects / > */}
       <Contact />

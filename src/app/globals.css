@@ -104,11 +104,11 @@
   }
 
   .flex-center {
-    @apply flex justify-center items-center;
+    @apply flex justify-center items-center gap-base;
   }
 
   .flex-between {
-    @apply flex justify-between items-center;
+    @apply flex justify-between items-center gap-base;
   }
 
   .hero-blob {
