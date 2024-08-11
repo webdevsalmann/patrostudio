@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Ilogo } from "@/components/ui/svgs";
 import { Facebook, Github, Instagram } from "lucide-react";
+import { siteConfig } from "@/lib/datas/metaDatas";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -46,7 +47,7 @@ export default function Footer() {
 
         <div className="pt-base">
           <p className="text-muted-foreground text-sm text-center">
-            Copyright &copy; {currentYear} Artistice-Studio / <Link className="hover:underline" href="/privacy-policy"> privacy-policy</Link> / <Link className="hover:underline" href="/credits"> Credits</Link> / Developed by <Link className="hover:underline" href="https://webdevsalmann.vercel.app/"> webdevsalmann</Link> 💖
+            Copyright &copy; {currentYear} {siteConfig.name} / <Link className="hover:underline" href="/privacy-policy"> privacy-policy</Link> / <Link className="hover:underline" href="/credits"> Credits</Link> / Developed by <Link className="hover:underline" href="https://webdevsalmann.vercel.app/"> webdevsalmann</Link> 💖
           </p>
         </div>
       </div>

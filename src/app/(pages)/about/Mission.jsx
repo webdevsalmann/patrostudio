@@ -9,11 +9,12 @@ export default function Mission() {
                 <div className="mt-block grid md:grid-cols-7 gap-block">
                     <div className="md:col-span-4">
                         <FadeUp>
-                            <h2 className="text-left text-2xl md:text-3xl">Welcome to Patrostudio! My name is Sanjeet Kumar Patro, and I am passionate about creating captivating visuals that elevate your brand and engage your audience.</h2>
+                            <h2 className="text-left text-2xl md:text-3xl"><span className="text-primary">
+                                Welcome</span> to Artistice-Studio! My name is Sanjeet Kumar Patro, and I am passionate about creating <span className="text-primary">captivating visuals</span> that elevate your brand and <span className="text-primary">engage your audience</span>.</h2>
                         </FadeUp>
                         <FadeUp>
                             <p>
-                            Patrostudio, our mission is to help businesses grow exponentially by providing top-notch photoshoots, graphic design, and video editing services. We strive to create content that not only meets your goals but also resonates with your audience on a deeper level. Our approach combines storytelling with emotional appeal to make your brand memorable and impactful.
+                            At Artistice-Studio, our mission is to help businesses grow <span className="text-primary">exponentially</span> by providing top-notch photoshoots, graphic design, and video editing services. We strive to create content that not only meets your goals but also <span className="text-primary">resonates</span> with your audience on a deeper level. Our approach combines storytelling with emotional appeal to make your brand <span className="text-primary">memorable & impactful</span>.
                             </p>
                         </FadeUp>
                         <FadeUp>
@@ -51,7 +52,7 @@ export default function Mission() {
                         </FadeUp>
                         <FadeUp>
                             <p>
-                            At Patrostudio, we are dedicated to delivering exceptional visual content that helps your business thrive. We believe in the power of collaboration and innovation to create visuals that captivate and convert. Our goal is to empower your brand with intentional, community-driven designs that leave a lasting impression.</p>
+                            At Artistice-Studio, we are dedicated to delivering exceptional visual content that helps your business thrive. We believe in the power of collaboration and innovation to create visuals that captivate and convert. Our goal is to empower your brand with intentional, community-driven designs that leave a lasting impression.</p>
                         </FadeUp>
                         <FadeUp>
                             <p className="mt-xs">Let&apos;s work together to transform your brand and achieve new heights of success.</p>
@@ -59,9 +60,9 @@ export default function Mission() {
                     </div >
                     <div className="relative w-full md:col-span-3">
                         <div className="sticky top-block w-full">
-                        <FadeLeft>
+                        <FadeUp>
                             <Itarget className="w-full text-muted-foreground" />
-                        </FadeLeft>
+                        </FadeUp>
                         </div>
                     </div>
                 </div >

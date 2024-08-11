@@ -12,12 +12,18 @@ export default function WorkingProcess() {
         <div className="mt-block grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {working.map((item, i) => {
             return (
-              <FadeUp key={i + "WorkingProcessCard"} >
+              <FadeUp
+                transition={{
+                  type: "spring",
+                  delay: 0.3 * i
+                }}
+                key={i + "WorkingProcessCard"} >
                 {/* <ServiceCard data={item} /> */}
                 <div className="p-base bg-background rounded-md border overflow-hidden">
                   <div className="text-center flex-center flex-col">
                     <div className="text-primary text-3xl font-bold"> {item.id} </div>
                     <div className="text-xl">{item.title}</div>
+                    <p className="text-sm">{item.description}</p>
                   </div>
                 </div>
               </FadeUp>

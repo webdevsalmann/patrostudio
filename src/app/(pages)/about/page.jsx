@@ -1,10 +1,10 @@
-import HowWeWork from "./HowWeWork";
-import Mission from "./Mission";
+import Mission from "./mission";
 import Hero from "@/components/ui/Hero";
 import SparkleText from "@/components/helper/SparkleText";
-import Contact from "@/components/layouts/contact/Contact";
-import TechStack from "./TechStack";
+import Contact from "@/components/layouts/contact/contact";
+import TechStack from "./tech-stack";
 import { aboutMd } from "@/lib/datas/metaDatas";
+import WorkingProcess from "../(home)/working-process";
 
 export const metadata = aboutMd;
 
@@ -14,7 +14,7 @@ export default function page() {
       <Hero heading={<><SparkleText text="About Me" /></>} />
       <Mission />
       <TechStack />
-      {/* <HowWeWork />  */}
+      <WorkingProcess />
       <Contact heading={<>Ready to take the <SparkleText text="next step?" /></>} />
     </main>
   )

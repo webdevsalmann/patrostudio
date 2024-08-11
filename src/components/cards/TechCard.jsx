@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function TechCard({ data:{href, imageUrl, icon, label} }) {
     return (
-        <Link className="relative p-2 size-full max-w-20 bg-background hover:bg-muted self-start flex-center flex-col rounded-md border" href={href} target="_blank">
+        <div className="relative p-2 size-full max-w-24 bg-background hover:bg-muted self-start flex-center flex-col rounded-md border">
             <div className="relative size-full p-1 flex-center aspect-square">
                 {imageUrl ? <Image
                     width={100}
@@ -13,6 +13,6 @@ export default function TechCard({ data:{href, imageUrl, icon, label} }) {
                 /> : icon}
             </div>
             <span className='mt-2 relative text-center text-muted-foreground text-xs'>{label}</span>
-        </Link>
+        </div>
     )
 }

@@ -1,16 +1,15 @@
-
 export const siteConfig = {
-    name: "webdevsalmann",
-    title: "WebDevSalmann - Fullstack Development Services",
-    description: "Your trusted partner for building powerful and scalable fullstack websites with Next.js.",
-    url: "https://webdevsalmann.com",
-    baseUrl: "https://webdevsalmann.com",
-    ogImage: "https://site/og.jpg",
+    name: "Artistice-Studio",
+    title: "Artistice-Studio - Your Story Our Vision",
+    description: "Your go-to partner for innovative and visually stunning photography, video editing, and graphic design services.",
+    url: "https://artistice-studio.com",
+    baseUrl: "https://artistice-studio.com",
+    ogImage: "https://artistice-studio.com/og.jpg",
     links: {
-        twitter: "https://twitter.com/webdevsalmann",
-        instagram: "https://instagram.com/webdevsalmann",
+        facebook: "https://www.facebook.com/sanjeet.roy.39982631/",
+        instagram: "https://www.instagram.com/sanjeet_kumar_patro/",
     },
-    owner: "Salman Malllick"
+    owner: "Sanjeet Kumar Patro"
 }
 
 // ===================================================
@@ -24,10 +23,10 @@ export const siteMd = {
     metadataBase: new URL(siteConfig.url),
     description: siteConfig.description,
     keywords: [
-        "Website Developer",
-        "Website Designer",
-        "Website SEO",
-        "Website Upgrade",
+        "Photography Services",
+        "Video Editing",
+        "Graphic Design",
+        "Creative Media",
     ],
     authors: [
         {
@@ -35,7 +34,7 @@ export const siteMd = {
             url: siteConfig.url,
         },
     ],
-    creator: "name",
+    creator: "Artistice-Studio",
     openGraph: {
         type: "website",
         locale: "en_US",
@@ -57,7 +56,7 @@ export const siteMd = {
         title: siteConfig.name,
         description: siteConfig.description,
         images: [siteConfig.ogImage],
-        creator: "@webdevsalmann",
+        creator: "@artistice_studio",
     },
     icons: {
         icon: "/favicon.ico",
@@ -68,22 +67,22 @@ export const siteMd = {
 
 export const aboutMd = {
     title: "About",
-    description: "Discover the story behind WebDevSalmann, where expertise meets innovation in fullstack development services.",
+    description: "Learn more about Artistice-Studio, where creativity meets precision in photography, video editing, and graphic design.",
 }
 
 export const serviceMd = {
     title: "Services",
-    description: "Explore the comprehensive range of services offered by WebDevSalmann, specializing in cutting-edge Next.js development.",
+    description: "Explore the diverse range of creative services provided by Artistice-Studio, including photography, video editing, and graphic design.",
 }
 
 export const portfolioMd = {
     title: "Portfolio",
-    description: "Browse through an array of impressive projects crafted by WebDevSalmann, showcasing excellence in Next.js development.",
+    description: "Browse our portfolio showcasing the artistic excellence and creativity of Artistice-Studio's projects.",
 }
 
 export const contactMd = {
     title: "Contact",
-    description: "Connect with WebDevSalmann to discuss inquiries, collaborations, or consultations for your next web project.",
+    description: "Get in touch with Artistice-Studio to discuss your creative needs, collaborations, or inquiries.",
 }
 
 // ===================================================
@@ -92,31 +91,31 @@ export const contactMd = {
 
 export const hireMd = {
     title: "Hire",
-    description: "Engage WebDevSalmann for your upcoming fullstack web development endeavor, turning your concepts into reality.",
+    description: "Engage Artistice-Studio for your next creative project, bringing your vision to life with professional photography, video editing, and graphic design.",
 }
 
 export const creditMd = {
     title: "Credits",
-    description: "Acknowledgments and attributions for the resources, tools, and technologies employed in WebDevSalmann's projects.",
+    description: "Acknowledgments for the tools, resources, and collaborators that contribute to the success of Artistice-Studio's projects.",
 }
 
 export const privacyPolicyMd = {
     title: "Privacy Policy",
-    description: "Review the privacy policy of WebDevSalmann, detailing our commitment to safeguarding your personal information.",
+    description: "Review Artistice-Studio's privacy policy, outlining our commitment to protecting your personal information.",
 }
 
 // ========================================
 // // Service Subpages
 // ========================================
-export const WDDSMd = {
-    title: "Website Design and Development",
-    description: "Elevate your online presence with bespoke website design and development services provided by Salman Mallick, operating under the brand name WebDevSalmann.",
+export const photoMd = {
+    title: "Photography Services",
+    description: "Capture stunning visuals with Artistice-Studio's professional photography services, tailored to meet your specific needs.",
 }
-export const WUSMd = {
-    title: "Website Update Service",
-    description: "Revitalize your existing website with seamless updates and enhancements by Salman Mallick, operating under the brand name WebDevSalmann.",
+export const videoMd = {
+    title: "Video Editing",
+    description: "Transform your raw footage into polished, professional videos with Artistice-Studio's expert video editing services.",
 }
-export const SOSMd = {
-    title: "Speed Optimization",
-    description: "Enhance your website's performance and user experience with expert speed optimization services by Salman Mallick, operating under the brand name WebDevSalmann.",
+export const graphicMd = {
+    title: "Graphic Design",
+    description: "Elevate your brand with Artistice-Studio's creative and impactful graphic design services, tailored to resonate with your audience.",
 }

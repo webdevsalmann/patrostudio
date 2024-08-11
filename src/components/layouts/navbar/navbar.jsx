@@ -4,9 +4,10 @@ import ThemeToggleBtn from "@/components/ui/ThemeToggleBtn"
 import { Ilogo } from '@/components/ui/svgs';
 import { AlignRight, X } from 'lucide-react';
 import { useState } from 'react';
-import NavigationLinks from './NavigationLinks';
+import NavigationLinks from './navigation-links';
+import { siteConfig } from '@/lib/datas/metaDatas';
 
-export default function Header() {
+export default function Navbar() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
   return (
@@ -15,7 +16,7 @@ export default function Header() {
 
         <Link className="w-fit flex-center" href="/">
           <Ilogo className="h-16 w-fit text-primary" />
-          <span className='sr-only'>Artistice-Studio</span>
+          <span className='sr-only'>{siteConfig.name}</span>
         </Link>
 
 

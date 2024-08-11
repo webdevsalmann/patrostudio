@@ -2,30 +2,26 @@
 import FadeUp from "@/components/animaitons/FadeUp";
 import TechCard from "@/components/cards/TechCard";
 import SparkleText from "@/components/helper/SparkleText";
-import { IExpress, INext, IShadcn } from "@/components/ui/svgs";
+import { ICoralDraw, IExpress, IKineMaster, ILightroom, INext, IPhotoshop, IShadcn } from "@/components/ui/svgs";
 import { motion } from "framer-motion";
 
 const techStackData = [
   {
-    href: "https://nextjs.org/",
-    icon: <INext className="w-fit h-fit text-foreground" />,
-    label: "Next JS"
+    icon: <IKineMaster className="w-fit h-fit text-foreground" />,
+    label: "Kine Master"
   },
   {
-    href: "https://tailwindcss.com/",
-    imageUrl: "./images/icons/tailwindcss.svg",
-    label: "Tailwind"
+    icon: <IPhotoshop className="w-fit h-fit text-foreground" />,
+    label: "Photoshop"
   },
   {
-    href: "https://ui.shadcn.com/",
-    icon: <IShadcn className="w-fit h-fit text-foreground" />,
-    label: "Shadcn-UI"
+    icon: <ILightroom className="w-fit h-fit text-foreground" />,
+    label: "Lightroom"
   },
-  {
-    href: "https://www.sanity.io/",
-    imageUrl: "./images/icons/sanity.svg",
-    label: "Sanity.io"
-  },
+  // {
+  //   icon: <ICoralDraw className="w-fit h-fit text-foreground" />,
+  //   label: "Coral Draw"
+  // },
 ]
 
 export default function TechStack() {

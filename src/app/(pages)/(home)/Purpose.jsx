@@ -1,6 +1,7 @@
 import FadeLeft from "@/components/animaitons/FadeLeft";
 import FadeRight from "@/components/animaitons/FadeRight";
 import FadeUp from "@/components/animaitons/FadeUp";
+import PurposeImageCard from "@/components/cards/purpose-image-card";
 import SparkleText from "@/components/helper/SparkleText";
 import { buttonVariants } from "@/components/ui/button";
 import { ArrowRight, BarChart4, Layers, MonitorSmartphone, Sparkles } from "lucide-react";
@@ -12,46 +13,14 @@ export default function purpose() {
     <section className="bg-section-secondary">
       <div className="relative section-wrapper grid md:grid-cols-2 gap-block">
         {/* Image */}
-        <FadeRight>
+        <FadeUp>
           <div className="md:sticky top-block w-full h-fit grid grid-cols-2 gap-base">
-            <div className="relative w-full aspect-square overflow-hidden rounded-md">
-              <Image
-                className="relative w-full aspect-square object-cover object-top rounded"
-                width={150}
-                height={150}
-                src="/images/projects/regalestate.png"
-                alt="regalestate website"
-              />
-            </div>
-            <div className="relative w-full aspect-square overflow-hidden rounded-md">
-              <Image
-                className="relative w-full aspect-square object-cover object-top rounded"
-                width={150}
-                height={150}
-                src="/images/projects/bugbuster.png"
-                alt="bugbuster website"
-              />
-            </div>
-            <div className="relative w-full aspect-square overflow-hidden rounded-md">
-              <Image
-                className="relative w-full aspect-square object-cover object-top rounded"
-                width={150}
-                height={150}
-                src="/images/projects/cofeco.jpg"
-                alt="cofeco website"
-              />
-            </div>
-            <div className="relative w-full aspect-square overflow-hidden rounded-md">
-              <Image
-                className="relative w-full aspect-square object-cover object-top rounded"
-                width={150}
-                height={150}
-                src="/images/projects/foodie.jpg"
-                alt="foodie website"
-              />
-            </div>
+            <PurposeImageCard imageUrl="/images/projects/regalestate.png"/>
+            <PurposeImageCard imageUrl="/images/projects/bugbuster.png"/>
+            <PurposeImageCard imageUrl="/images/projects/cofeco.jpg"/>
+            <PurposeImageCard imageUrl="/images/projects/foodie.jpg"/>
           </div>
-        </FadeRight>
+        </FadeUp>
 
         {/* Details */}
         <div>
@@ -67,7 +36,7 @@ export default function purpose() {
               <p className="mt-4">Without professional photos, graphics, and videos, your posts can get lost in the crowded online space, making it hard for your brand to stand out and attract attention.</p>
             </FadeUp>
             <FadeUp>
-              <p className="mt-4"><i>Patrostudio provides top-notch photoshoots, graphic design, and video editing services tailored to enhance your social media presence, ensuring your content captivates and engages your audience.</i></p>
+              <p className="mt-4"><i>Artistice-Studio provides top-notch photoshoots, graphic design, and video editing services tailored to enhance your social media presence, ensuring your content captivates and engages your audience.</i></p>
             </FadeUp>
           </div>
 

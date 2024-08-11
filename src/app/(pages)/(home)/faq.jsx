@@ -7,7 +7,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import { faqs } from '@/lib/datas/faqs';
+import { faqs } from '@/lib/datas/index';
 import FadeUp from "@/components/animaitons/FadeUp";
 import FadeLeft from "@/components/animaitons/FadeLeft";
 
@@ -37,9 +37,9 @@ export default function FAQ() {
                     </Accordion>
 
                     <div className="relative w-full">
-                        <FadeLeft>
+                        <FadeUp>
                             <IQuestion className="sticky top-block w-full text-muted-foreground/30 dark:text-muted-foreground/50" />
-                        </FadeLeft>
+                        </FadeUp>
                     </div>
                 </div>
             </div>

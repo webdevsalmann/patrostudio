@@ -1,12 +1,12 @@
 import FadeUp from "@/components/animaitons/FadeUp";
-import PricingCard from "@/components/cards/PricingCard";
+import PricingCard from "@/components/cards/pricing-card";
 import SparkleText from "@/components/helper/SparkleText";
-import { benefits, pricing } from "@/lib/datas/pricing";
+import { benefits, pricing } from "@/lib/datas/index";
 import { CheckCheck } from "lucide-react";
 
 export default function Pricing() {
   return (
-    <section className="bg-secondary/30">
+    <section className="bg-section-pattern-2">
       <div className="section-wrapper">
         <div className="mx-auto">
           <FadeUp>

@@ -1,6 +1,6 @@
 import SparkleText from "@/components/helper/SparkleText";
 import Hero from "@/components/ui/Hero";
-import PrivacyPolicy from "./PrivacyPolicy";
+import PrivacyPolicy from "./privacy-poilcy";
 import { privacyPolicyMd } from "@/lib/datas/metaDatas";
 
 export const metadata = privacyPolicyMd;

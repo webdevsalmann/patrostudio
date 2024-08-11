@@ -1,7 +1,7 @@
 import SparkleText from "@/components/helper/SparkleText";
 import Hero from "@/components/ui/Hero";
-import Includes from "./Includes";
-import Contact from "@/components/layouts/contact/Contact";
+import Includes from "./includes";
+import Contact from "@/components/layouts/contact/contact";
 
 export default function page() {
     return (

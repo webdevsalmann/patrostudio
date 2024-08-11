@@ -1,7 +1,7 @@
 "use client"
 import FadeUp from "@/components/animaitons/FadeUp";
 import { Button } from "@/components/ui/button";
-import { services } from "@/lib/datas/services";
+import { services } from "@/lib/datas/index";
 import Image from "next/image";
 import { useState } from "react";
 
